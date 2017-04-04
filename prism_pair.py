@@ -30,7 +30,7 @@ def d_e(nu,beta,gamma):
     """ returns the equilibrium separation between Shockley pair for 
     units = b
     """
-    return 1/(1-nu)/gamma*(1+(2-nu)*np.cos(2*beta))
+    return (2-nu)/(1-nu)/gamma*(1-nu*np.cos(2*beta)/(2-nu))
 
 def Es(nu, beta):
     """ returns the self energies for the pair of Shockley
@@ -40,7 +40,8 @@ def Es(nu, beta):
 def Eif(nu,beta,gamma):
     """ interaction energy + stacking-fault energy
     """
-    return d_e(nu,beta,gamma)*gamma*(6.9+1)
+    d = d_e(nu,beta,gamma)
+    return d*gamma*(6.2-np.log(d)+1)
 
 def main():
     npnts = 200

@@ -24,12 +24,13 @@ E_shock = np.array(E_shock)*24
 E_prism = np.array(E_prism)*16
 
 fig1 = plt.figure()
-plt.xlabel(r'$\beta$'+ ' (rad)')
+plt.xlabel(r'$\theta$'+ ' (rad)')
 plt.ylabel('Elastic energy '+r'$\left(\frac{\mu a^2}{\pi}\right)$')
 
 ax = fig1.gca()
 
-ax.plot(beta,E_shock,label="Dissociated mixed basal")
-ax.plot(beta,E_prism,label="Dissociated screw prism")
+ax.plot(beta,E_shock,label="basal disloc")
+ax.plot(beta,E_prism,label="prism disloc")
 
+ax.legend(loc=0)
 plt.show()

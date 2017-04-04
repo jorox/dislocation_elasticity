@@ -38,7 +38,8 @@ def Es(nu, beta):
 def Eif(nu,beta,gamma):
     """ interaction energy + stacking-fault energy
     """
-    return d_e(nu,beta,gamma)*gamma*(6.9+1)
+    d = d_e(nu,beta,gamma)
+    return d*gamma*(6.2-np.log(d)+1)
 
 def main():
     # application to zirconium
