@@ -1,29 +1,16 @@
-\documentclass[10pt,a4paper,draft]{article}
-\usepackage{graphicx}
+\documentclass[10pt,a4paper,final]{article}
+\usepackage[pdftex]{graphicx}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
-\usepackage{tikz}
+%\usepackage{tikz}
 \usepackage{empheq}
 
 \title{Model for elastic energy of a dissociated dislocation}
 
 \begin{document}
 \section{Introduction}
-\begin{tikzpicture}
-	\node (P1) at (-1,0) {};
-	\node (P2) at (2,1) {};
-	\node (b1) at (4,-1.0) {};
-	\node (b2) at (7,0) {};
-	\node (c1) at (4,0.5) {};
-	\node (c2) at (7,1.5) {};
-	
-	\path 
-		(P1) edge [red,thick] (P2)
-		(b1) edge [black,thick] (b2)
-		(c1) edge [black,thick] (c2) ;
-\end{tikzpicture}
 
 The general model for the elastic energy per unit length for a mixed dislocation dissociated into two partials can be given as \cite{bacon78}:
 \begin{equation}
@@ -75,8 +62,8 @@ Taking the partial derivative wrt $\Delta$ to find the equilibrium separation $d
 Which gives the relation between the equilibrium separation and the interaction energy coefficients
 \begin{equation}
 \gamma d = \frac{\mu}{2\pi}\left(\alpha+\frac{\beta}{1-\nu}\right) \label{eq:gammad}
-\end{equation}graphicx
-Replacing equation \ref{eq:gammad} in equation \ref{eqbacon} we get
+\end{equation}
+Replacing equation \ref{eq:gammad} in equation \ref{eqbacon} we get the general form
 \begin{equation}
 \boxed{
 E_D(\theta) = E_S(\theta+\phi) + E_S(\theta-\phi) + \gamma d \ln\frac{R}{d} + \gamma d} \label{eq:finalED}
@@ -84,6 +71,12 @@ E_D(\theta) = E_S(\theta+\phi) + E_S(\theta-\phi) + \gamma d \ln\frac{R}{d} + \g
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Shockley dislocation
 \section{Shockley dislocation ($\theta, \phi=\pm\pi/6$)}
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=1]{png/shockley_schema.png}
+\caption{Representation of a Shockley pair}
+\end{figure}
+
 \subsection{Self-energy}
 Using equation (\ref{eq:ltmodel}) we can show that the self-energy for a pair of Shockley partials is given as
 \begin{equation}
@@ -134,13 +127,19 @@ where $d_B$ is defined in equation \ref{eq:hirth1015}.
 
 %%%%%%%%%%%%%%%%%%%% Prismatic pair
 \section{Prismatic dislocation ($\theta, \phi= 0)$}
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=1]{png/prism_schema.png}
+\caption{Representation of a prismatic pair}
+\end{figure}
 \subsection{Self-energy}
-The self energy of a pair of dislocations with equal Burgers vectors ($\phi=0$)
+The self energy of a pair of dislocations with equal Burgers vectors ($\phi=0$) is just double that for a single
 \begin{equation}
-E_S(\theta) = \frac{\mu b^2}{2\pi}\frac{1-\nu\cos^2\theta}{1-\nu}\ln\frac{R}{r_0} \label{eq:selfprism}
+E_S(\theta) = 2\cdot\frac{\mu b^2}{4\pi}\frac{1-\nu\cos^2\theta}{1-\nu}\ln\frac{R}{r_0} \label{eq:selfprism}
 \end{equation}
 
 \subsection{Interaction energy}
+There is no equation in \cite{hirth1982theory} similar to that of \ref{eq:hirth1015}, so we will derive it here.
 The equilibrium separation between the pair of dislocations in the prismatic plane can be obtained from equation \ref{eq:alphabeta}
 
 \begin{subequations}
@@ -175,12 +174,11 @@ E_D^P(\theta, \nu, \gamma) &=  \frac{\mu b^2}{4\pi}\frac{2}{1-\nu}(1-\nu\cos^2\t
 where $d_P$ is defined in equation \ref{eq:gdprism}.
 
 \section{Implementation for the case of Zr}
-We will take $E0 = \mu a^2/\pi$ as units of energy and $a$ as units of distance. This allows us to define the dimensionless stacking-fault energies $\gamma'$ as 
+We will take $E_0 = [\mu a^2/\pi] = [J/m]$ as units of energy and $a$ as units of distance. This allows us to define the dimensionless stacking-fault energies $\gamma'$ as 
 \begin{equation}
-\gamma' = \frac{\gamma}{E0/a} = \frac{\gamma\pi}{\mu a} \label{eq:dimgamma} 
+\gamma' = \frac{\gamma}{E_0/a} = \frac{\gamma\pi}{\mu a} \label{eq:dimgamma} 
 \end{equation}
-We use the parameters $\nu=1/3$, $\mu=131~\text{GPa}$, $a=3.232~\AA$ $\gamma_P=135 ~\text{mJ/m}^2$, $\gamma_B = 198 ~\text{mJ/m}^2$.
-This gives
+We use the parameters $\mu=131~\text{GPa}$, $a=3.232~\AA$ $\gamma_P=135 ~\text{mJ/m}^2$, $\gamma_B = 198 ~\text{mJ/m}^2$ to define the prismatic and basal stacking fault-energies for zirconium
 \begin{equation}
 \begin{split}
 \gamma_P' &= 0.000100 \\
@@ -189,24 +187,27 @@ This gives
 \label{eq:gammaszr}
 \end{equation}\\
 
-For the radii let $r_0=a$ and let $R=10^nr_0$. We also specify $d = d'.a$. This choice of values allows us to identify the dimensionless value of $d$ and gives the following useful approximations to the natural logarithm:
+For the radii let $r_0=a$ and let $R=10^nr_0$. We also specify $d = d'.a$. This choice of parameters allows to identify the dimensionless value $d'$ and gives the following useful approximations to the natural logarithm:
 \begin{equation}
 \begin{split}
-\ln\frac{R}{r0} &= \ln\frac{a~10^n}{a} = \ln10^n = 2.3n \\
-\ln\frac{R}{d} &= \ln\frac{10^na}{s.a} = \ln10^n - \ln(s) = 2.3n - \ln(d')
+\ln\frac{R}{r_0} &= \ln\frac{a~10^n}{a} = \ln10^n = 2.3n \\
+\ln\frac{R}{d} &= \ln\frac{10^na}{d'~a} = \ln10^n - \ln(d') = 2.3n - \ln(d')
 \end{split}
 \label{eq:lns}
 \end{equation}
 
-Using equations \ref{eq:lns}, \ref{eq:gammaszr}, \ref{eq:EDprism}, and \ref{eq:EDshoc} we plot the elastic energy of a dissociated dislocation in the basal plane as a function of $\theta$ and we compare with that of a screw dislocation ($\theta=0$) in the prismatic plane
+Without any loss in generality we let $n=3$ and using equations \ref{eq:lns}, \ref{eq:gammaszr}, \ref{eq:EDprism}, and \ref{eq:EDshoc} we show in figure \ref{fig:zr} the elastic energy of a dissociated dislocation in the basal plane as a function of $\theta$ and we compare with that of a dissociated dislocation in the prismatic plane.\\
 
-\begin{figure}[hbtp]
+We note that the screw dislocation ($\theta=0$) in the prismatic plane (green curve) has the lowest energy. The energy difference between the screw dislocation in the basal and the prismatic plane is roughly $\Delta_{PB}(\theta=0) = 504 ~\frac{\mu a^2}{\pi}$. Using the same values for the parameters of zirconium listed above $\mu$ and $a$ we get $\Delta_{PB}(\theta=0) = 6753.6~\text{J/m}$
+
+\begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.1]{zr}
-\caption{Elastic energy as a function of $\theta$ the angle between the Burgers vector and the line unit vector for the case of zirconium}
+\includegraphics[scale=0.7]{png/zr_basal_prism}
+\caption{Elastic energy as a function of dislocation character. Case of zirconium. $\gamma_P' = 0.000100, \gamma_B' = 0.000147, \nu=1/3$}
+\label{fig:zr}
 \end{figure}
 
-
+\pagebreak
 \bibliography{bacon78.bib,hirth82}
 \bibliographystyle{plain}
 \end{document}

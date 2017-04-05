@@ -18,7 +18,7 @@ nu = 0.333333
 
 for i in range(npnts):
     E_shock[i] = shpair.Es(nu,beta[i]) + shpair.Eif(nu,beta[i],gamma_B)
-    E_prism[i] = prpair.Es(nu,0) + prpair.Eif(nu,0,gamma_P)
+    E_prism[i] = prpair.Es(nu,beta[i]) + prpair.Eif(nu,beta[i],gamma_P)
 
 E_shock = np.array(E_shock)*24
 E_prism = np.array(E_prism)*16
