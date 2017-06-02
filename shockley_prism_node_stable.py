@@ -1,8 +1,7 @@
 #!/usr/bin/python
 import numpy as np
 import matplotlib.pyplot as plt
-import shockley_pair as shpair
-import prism_pair as prpair
+import blt_energy as blt
 
 def bisect(x,y):
     """ return the root of the data (x,y) using the bisection method"""
@@ -12,29 +11,37 @@ def bisect(x,y):
         if np.sign(y[i+1]) != np.sign(y[i]):
             return ( (x[i]+x[i+1])/2.0, (y[i]+y[i+1])/2.0 )
     return None
+##################################################################################
+# Common parameters
+mu =34.0e9 #Pa
+nu = 0.3970589126
+a = 3.232e-10 #A
+
+# Basal - Prism parameters - SFE and angle between b_perfect and b_partials
+sfe_basal = 198e-3 #J/m^2
+sfe_prism = 135e-3
+alpha_basal = np.pi/6.0 #rad
+alpha_prism = 0
+b_basal = a/np.sqrt(3.0)
+b_prism = a/2.0
+
 
 npnts = 1000
 beta = np.array(range(0,npnts))/float(npnts-1)*np.pi
 E_shock = [0]*npnts
 E_prism = [0]*npnts
 
-# shpair and prpair have different energy units due to the prefector
-#  and due to the norm of b
-# New energy unit is E0 = mu*a^2/PI
-# b_prism^2 = a^2/4, and b_shock^2 = a^2/3
-# correct for E0: E0_sh = mub^2/8/pi, E0_pr = mub^2/4/pi
-#  E0_sh = mua^2/24/pi and E0_pr = mua^2/16/pi
-gamma_B = 198e-3/(131e9*3.232e-10)*np.pi
-gamma_P = 135e-3/(131e9*3.232e-10)*np.pi
 
-nu = 0.333333
-
+efac = mu*a*a/np.pi
+print("efac %1.5e"%(efac))
 for i in range(npnts):
-    E_shock[i] = shpair.Es(nu,beta[i]) + shpair.Eif(nu,beta[i],gamma_B)
-    E_prism[i] = prpair.Es(nu,0) + prpair.Eif(nu,0,gamma_P)
+    E_prism[i] = blt.E_blt(b_prism,b_prism,beta[i]+alpha_prism,beta[i]-alpha_prism,
+                           sfe_prism, mu, nu, 1000e-10,1e-10)/efac
+    E_shock[i] = blt.E_blt(b_basal,b_basal,beta[i]+alpha_basal,beta[i]-alpha_basal,
+                           sfe_basal, mu, nu, 1000e-10,1e-10)/efac
 
-E_shock = np.array(E_shock)*24
-E_prism = np.array(E_prism)*16
+E_shock = np.array(E_shock)
+E_prism = np.array(E_prism)
 
 dE_shock_dB = np.diff(E_shock)/np.diff(beta) #derv E_D^B wrt beta
 E_shock = E_shock[:len(E_shock)-1] #len(derivative) = N-1
