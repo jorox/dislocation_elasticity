@@ -46,9 +46,12 @@ def main():
     npnts = 200
     beta = np.array(range(0,npnts))/float(npnts-1)*np.pi/2.0
     E = [0]*npnts
-
-    gamma = 198e-3/(131e9*3.232e-10*np.sqrt(3)/3)*8*np.pi
     nu = 0.33333
+    mu = 34e9 #Pa
+    b = 3.232e-10 #A
+    
+    gamma = 198e-3/(mu*b*np.sqrt(3)/3)*8*np.pi
+    
 
     for i in range(npnts):
         E[i] = Es(nu,beta[i]) + Eif(nu,beta[i],gamma)

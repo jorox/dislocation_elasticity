@@ -14,9 +14,48 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="drawing.svg">
   <defs
      id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path4107"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path4098"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path4101"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
     <marker
        inkscape:stockid="Arrow1Sstart"
        orient="auto"
@@ -139,6 +178,34 @@
          style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
          transform="matrix(0.4,0,0,0.4,4,0)" />
     </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Send-5"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3976-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Send-5-7"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3976-6-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -148,15 +215,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="269.61237"
-     inkscape:cy="365.09792"
+     inkscape:cx="302.75343"
+     inkscape:cy="136.52649"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1009"
+     inkscape:window-height="1008"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1">
@@ -164,6 +231,10 @@
        orientation="1,0"
        position="-63.63961,768.22101"
        id="guide6165" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="153.92857,318.21429"
+       id="guide5162" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -185,34 +256,52 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none"
        d="M 135.36044,135.14367 301.72963,90.565181"
        id="path2985"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/parallel_disloc.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 143.59465,180.66643 309.96384,136.08794"
        id="path2985-3"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/parallel_disloc.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
        d="m 179.30208,131.10306 16.47293,-28.53195"
        id="path3005"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/parallel_disloc.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:url(#Arrow2Mend)"
        d="M 196.47467,179.59038 169.99686,164.30341"
        id="path3007"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/parallel_disloc.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06088042px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Sstart);marker-end:url(#Arrow1Send)"
        d="m 304.05593,91.707112 10.02058,42.089468"
        id="path4583"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/parallel_disloc.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
     <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold"
        x="313.65237"
        y="115.95077"
        id="text5333"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/parallel_disloc.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177"><tspan
          sodipodi:role="line"
          id="tspan5337"
          style="font-size:14px;font-weight:normal;-inkscape-font-specification:Droid Sans"
@@ -224,7 +313,10 @@
        x="167.68532"
        y="110.90001"
        id="text5339"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/parallel_disloc.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177"><tspan
          sodipodi:role="line"
          id="tspan5341"
          x="167.68532"
@@ -238,7 +330,10 @@
        x="178.1644"
        y="189.00989"
        id="text5339-6"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/parallel_disloc.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177"><tspan
          sodipodi:role="line"
          id="tspan5341-1"
          x="178.1644"
@@ -600,5 +695,405 @@
          x="273.78857"
          y="279.65576"
          style="font-size:10px">θ</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.19325697px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:none"
+       d="m 235,776.10234 0,210.01968"
+       id="path3070"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.21698022px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 223.07142,972.00504 284.57144,0"
+       id="path3072"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 246.78571,828.79075 31.78572,47.85715 115.71428,0 45.53572,45.53571"
+       id="path5160"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:4,4;stroke-dashoffset:0"
+       d="m 162.85714,876.64789 366.78572,0"
+       id="path5164"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path5168"
+       sodipodi:cx="335.17856"
+       sodipodi:cy="839.32648"
+       sodipodi:rx="3.75"
+       sodipodi:ry="3.75"
+       d="m 338.92856,839.32648 a 3.75,3.75 0 1 1 -7.5,0 3.75,3.75 0 1 1 7.5,0 z"
+       transform="matrix(0.57983193,0,0,0.57983193,83.331324,389.80104)"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path5168-3"
+       sodipodi:cx="335.17856"
+       sodipodi:cy="839.32648"
+       sodipodi:rx="3.75"
+       sodipodi:ry="3.75"
+       d="m 338.92856,839.32648 a 3.75,3.75 0 1 1 -7.5,0 3.75,3.75 0 1 1 7.5,0 z"
+       transform="matrix(0.57983193,0,0,0.57983193,246.00991,435.69389)"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path5168-6"
+       sodipodi:cx="335.17856"
+       sodipodi:cy="839.32648"
+       sodipodi:rx="3.75"
+       sodipodi:ry="3.75"
+       d="m 338.92856,839.32648 a 3.75,3.75 0 1 1 -7.5,0 3.75,3.75 0 1 1 7.5,0 z"
+       transform="matrix(0.57983193,0,0,0.57983193,201.00991,390.33675)"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path5168-7"
+       sodipodi:cx="335.17856"
+       sodipodi:cy="839.32648"
+       sodipodi:rx="3.75"
+       sodipodi:ry="3.75"
+       d="m 338.92856,839.32648 a 3.75,3.75 0 1 1 -7.5,0 3.75,3.75 0 1 1 7.5,0 z"
+       transform="matrix(0.57983193,0,0,0.57983193,52.795624,342.83675)"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:#000000;stroke-width:0.39199999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.39199999,1.56799996;stroke-dashoffset:0"
+       id="rect5410"
+       width="117.47989"
+       height="13.571428"
+       x="277.5"
+       y="869.505"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:#000000;stroke-width:0.39199999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.39199999, 1.56799995;stroke-dashoffset:0"
+       id="rect5430"
+       width="11.071428"
+       height="57.142857"
+       x="-241.05469"
+       y="832.04523"
+       transform="matrix(0.84408133,-0.53621517,0.53621517,0.84408133,0,0)"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:#000000;stroke-width:0.42825603;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.42825604, 1.71302415;stroke-dashoffset:0"
+       id="rect5430-3"
+       width="12.110049"
+       height="62.3526"
+       x="-334.20422"
+       y="917.75659"
+       transform="matrix(0.74217718,-0.67020373,0.69756009,0.71652629,0,0)"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Send)"
+       d="m 336.42857,869.1479 11.42857,0"
+       id="path5450"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Send)"
+       d="m 337.0375,883.43361 11.42857,0"
+       id="path5450-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
+    <text
+       xml:space="preserve"
+       x="336.42859"
+       y="863.79077"
+       id="text5884"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177"><tspan
+         sodipodi:role="line"
+         id="tspan5886"
+         x="336.42859"
+         y="863.79077"
+         style="font-size:8px;font-weight:normal;-inkscape-font-specification:Sans">b<tspan
+   style="font-size:8px;font-weight:normal;baseline-shift:sub;-inkscape-font-specification:Sans"
+   id="tspan7240">1</tspan><tspan
+   style="font-size:8px;font-weight:normal;baseline-shift:super;-inkscape-font-specification:Sans"
+   id="tspan7242">p</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Send-5)"
+       d="m 418.57142,898.43361 11.07143,-6.42857"
+       id="path5918"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Send-5)"
+       d="m 414.32816,905.76259 10.7559,6.9436"
+       id="path5918-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 283.92857,850.57647 21.78572,0"
+       id="path6768"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Standard Symbols L;-inkscape-font-specification:Standard Symbols L"
+       x="281.07141"
+       y="842.00507"
+       id="text7186"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177"><tspan
+         sodipodi:role="line"
+         id="tspan7188"
+         x="281.07141"
+         y="842.00507"
+         style="font-size:11px">b<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan7190">perfect</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       x="336.6152"
+       y="895.38928"
+       id="text5884-1"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177"><tspan
+         sodipodi:role="line"
+         id="tspan5886-8"
+         x="336.6152"
+         y="895.38928"
+         style="font-size:8px">b<tspan
+   style="font-size:8px;baseline-shift:sub"
+   id="tspan7273">2</tspan><tspan
+   style="font-size:8px;baseline-shift:super"
+   id="tspan7242-9">p</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       x="417.68665"
+       y="926.10352"
+       id="text5884-2"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177"><tspan
+         sodipodi:role="line"
+         id="tspan5886-0"
+         x="417.68665"
+         y="926.10352"
+         style="font-size:8px">b<tspan
+   style="font-size:8px;baseline-shift:sub"
+   id="tspan7240-2">1</tspan><tspan
+   id="tspan7290"
+   style="font-size:8px;baseline-shift:super" /></tspan></text>
+    <text
+       xml:space="preserve"
+       x="428.62097"
+       y="906.04816"
+       id="text5884-2-7"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177"><tspan
+         sodipodi:role="line"
+         id="tspan5886-0-5"
+         x="428.62097"
+         y="906.04816"
+         style="font-size:8px">b<tspan
+   style="font-size:8px;baseline-shift:sub"
+   id="tspan7319">2</tspan><tspan
+   id="tspan7290-2"
+   style="font-size:8px;baseline-shift:super" /></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Standard Symbols L;-inkscape-font-specification:Standard Symbols L"
+       x="413.57144"
+       y="890.2193"
+       id="text7321"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177"><tspan
+         sodipodi:role="line"
+         id="tspan7325"
+         x="413.57144"
+         y="890.2193"
+         style="font-size:12px">θ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Standard Symbols L;-inkscape-font-specification:Standard Symbols L"
+       x="391.78571"
+       y="866.64789"
+       id="text7327"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177"><tspan
+         sodipodi:role="line"
+         id="tspan7329"
+         x="391.78571"
+         y="866.64789"
+         style="font-size:11px;font-weight:normal;-inkscape-font-specification:Standard Symbols L">x</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:3,3;stroke-dashoffset:0"
+       d="m 440.71429,922.36218 0,-45.71428"
+       id="path3113"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Standard Symbols L;-inkscape-font-specification:Standard Symbols L"
+       x="445.71429"
+       y="902.71936"
+       id="text3967"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177"><tspan
+         sodipodi:role="line"
+         id="tspan3969"
+         x="445.71429"
+         y="902.71936"
+         style="font-size:10px">H</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Standard Symbols L;-inkscape-font-specification:Standard Symbols L"
+       x="403.38312"
+       y="904.57861"
+       id="text3967-3"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177"><tspan
+         sodipodi:role="line"
+         id="tspan3969-6"
+         x="403.38312"
+         y="904.57861"
+         style="font-size:10px">L</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Standard Symbols L;-inkscape-font-specification:Standard Symbols L"
+       x="437.14285"
+       y="872.71936"
+       id="text3992"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177"><tspan
+         sodipodi:role="line"
+         id="tspan3994"
+         x="437.14285"
+         y="872.71936"
+         style="font-size:12px">P</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 406.07143,888.43361 c 3.4553,-4.52429 1.81131,-8.19871 -0.35714,-11.78571"
+       id="path3996"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend-2)"
+       d="m 396.07142,842.36218 -28.92857,0"
+       id="path3998"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend-2);marker-start:url(#Arrow1Mstart-3)"
+       d="M 409.64286,856.29075 395.71429,842.36218 410,828.07647"
+       id="path4892"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177" />
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Standard Symbols L;-inkscape-font-specification:Standard Symbols L"
+       x="369.42859"
+       y="838.14789"
+       id="text5310"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177"><tspan
+         sodipodi:role="line"
+         id="tspan5312"
+         x="369.42859"
+         y="838.14789"
+         style="font-size:10px">E<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan5362">P</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Standard Symbols L;-inkscape-font-specification:Standard Symbols L"
+       x="412.42957"
+       y="863.15009"
+       id="text5310-7"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177"><tspan
+         sodipodi:role="line"
+         id="tspan5312-5"
+         x="412.42957"
+         y="863.15009"
+         style="font-size:10px">E<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan5358">B</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Standard Symbols L;-inkscape-font-specification:Standard Symbols L"
+       x="398.26904"
+       y="824.22144"
+       id="text5310-7-3"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/wk234832/work/dislocation_elasticity/tex/png/node_shcema.png"
+       inkscape:export-xdpi="177"
+       inkscape:export-ydpi="177"><tspan
+         sodipodi:role="line"
+         id="tspan5312-5-5"
+         x="398.26904"
+         y="824.22144"
+         style="font-size:10px">dE<tspan
+   style="font-size:65.00091553%;baseline-shift:super"
+   id="tspan5356">B</tspan>/dθ</tspan></text>
   </g>
 </svg>

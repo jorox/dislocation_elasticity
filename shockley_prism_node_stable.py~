@@ -9,15 +9,12 @@ beta = np.array(range(0,npnts))/float(npnts-1)*np.pi/2.0
 E_shock = [0]*npnts
 E_prism = [0]*npnts
 
-mu = 34e9
-a = 3.232e-10
-
 # correct for E0: E0_sh = mub^2/8/pi, E0_pr = mub^2/4/pi
 #  E0_sh = mua^2/24/pi and E0_pr = mua^2/16/pi
-gamma_B = 198e-3/(mu*a)*np.pi
-gamma_P = 135e-3/(mu*a)*np.pi
+gamma_B = 198e-3/(131e9*3.232e-10)*np.pi
+gamma_P = 135e-3/(131e9*3.232e-10)*np.pi
 
-nu = 0.357458
+nu = 0.333333
 
 for i in range(npnts):
     E_shock[i] = shpair.Es(nu,beta[i]) + shpair.Eif(nu,beta[i],gamma_B)

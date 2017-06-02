@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.10.3)  5 APR 2017 18:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.5.24)  2 JUN 2017 19:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -340,6 +340,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
+(/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/empheq.sty
 Package: empheq 2014/07/16 v2.14 Emphasizing equations
 
@@ -389,34 +392,57 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \EQ_mathdisplay_box=\box28
 \EQ_tag_box=\box29
 \g_EQ_temprow_int=\count107
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen132
+\lightrulewidth=\dimen133
+\cmidrulewidth=\dimen134
+\belowrulesep=\dimen135
+\belowbottomsep=\dimen136
+\aboverulesep=\dimen137
+\abovetopsep=\dimen138
+\cmidrulesep=\dimen139
+\cmidrulekern=\dimen140
+\defaultaddspace=\dimen141
+\@cmidla=\count108
+\@cmidlb=\count109
+\@aboverulesep=\dimen142
+\@belowrulesep=\dimen143
+\@thisruleclass=\count110
+\@lastruleclass=\count111
+\@thisrulewidth=\dimen144
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen145
 ) (./model.aux)
 \openout1 = `model.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count108
-\scratchdimen=\dimen132
+\scratchcounter=\count112
+\scratchdimen=\dimen146
 \scratchbox=\box30
-\nofMPsegments=\count109
-\nofMParguments=\count110
+\nofMPsegments=\count113
+\nofMParguments=\count114
 \everyMPshowfont=\toks22
-\MPscratchCnt=\count111
-\MPscratchDim=\dimen133
-\MPnumerator=\count112
-\makeMPintoPDFobject=\count113
+\MPscratchCnt=\count115
+\MPscratchDim=\dimen147
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
 \everyMPtoPDFconversion=\toks23
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -466,97 +492,141 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\Hy@linkcounter=\count114
-LaTeX Font Info:    Try loading font information for U+msa on input line 16.
+LaTeX Info: Redefining \celsius on input line 16.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 16.
+
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 16.
+Package gensymb Info: Using \Omega for \ohm on input line 16.
+
+Package gensymb Warning: Not defining \micro.
+
+\Hy@linkcounter=\count118
+<png/parallel_disloc.png, id=1, 149.43967pt x 81.66101pt>
+File: png/parallel_disloc.png Graphic file (type png)
+
+<use png/parallel_disloc.png>
+Package pdftex.def Info: png/parallel_disloc.png used on input line 20.
+(pdftex.def)             Requested size: 119.55188pt x 65.32887pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 21.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 16.
+LaTeX Font Info:    Try loading font information for U+msb on input line 21.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 18--20
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--30
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--47
+Underfull \hbox (badness 10000) in paragraph at lines 51--55
 
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<png/shockley_schema.png, id=13, 162.91373pt x 137.1905pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./png/parallel_disloc.png>
+] <png/shockley_schema.png, id=16, 162.91373pt x 137.1905pt>
 File: png/shockley_schema.png Graphic file (type png)
 
 <use png/shockley_schema.png>
-Package pdftex.def Info: png/shockley_schema.png used on input line 76.
+Package pdftex.def Info: png/shockley_schema.png used on input line 89.
 (pdftex.def)             Requested size: 162.91333pt x 137.19016pt.
  [2 <./png/shockley_schema.png>]
-<png/prism_schema.png, id=21, 162.91373pt x 137.1905pt>
+<png/prism_schema.png, id=23, 162.91373pt x 137.1905pt>
 File: png/prism_schema.png Graphic file (type png)
 
 <use png/prism_schema.png>
-Package pdftex.def Info: png/prism_schema.png used on input line 132.
+Package pdftex.def Info: png/prism_schema.png used on input line 145.
 (pdftex.def)             Requested size: 162.91333pt x 137.19016pt.
  [3] [4 <./png/prism_schema.png>]
-
-LaTeX Warning: Command \r invalid in math mode on input line 181.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
-
- []
-
-<png/zr_basal_prism.png, id=29, 586.8324pt x 442.2924pt>
+<png/zr_basal_prism.png, id=31, 586.8324pt x 442.2924pt>
 File: png/zr_basal_prism.png Graphic file (type png)
 
 <use png/zr_basal_prism.png>
-Package pdftex.def Info: png/zr_basal_prism.png used on input line 205.
+Package pdftex.def Info: png/zr_basal_prism.png used on input line 227.
 (pdftex.def)             Requested size: 410.77988pt x 309.60257pt.
 
-Overfull \hbox (65.77988pt too wide) in paragraph at lines 205--206
+Overfull \hbox (65.77988pt too wide) in paragraph at lines 227--228
  [][] 
  []
 
-[5] [6 <./png/zr_basal_prism.png>] (./model.bbl) [7] (./model.aux) ) 
+[5] [6 <./png/zr_basal_prism.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+
+ []
+
+<png/node_schema.png, id=41, 292.34644pt x 170.26321pt>
+File: png/node_schema.png Graphic file (type png)
+
+<use png/node_schema.png>
+Package pdftex.def Info: png/node_schema.png used on input line 237.
+(pdftex.def)             Requested size: 292.34572pt x 170.26279pt.
+ [7 <./png/node_schema.png>]
+<png/force_node.png, id=47, 586.8324pt x 442.2924pt>
+File: png/force_node.png Graphic file (type png)
+ <use png/force_node.png>
+Package pdftex.def Info: png/force_node.png used on input line 301.
+(pdftex.def)             Requested size: 352.10216pt x 265.37749pt.
+
+Overfull \hbox (7.10216pt too wide) in paragraph at lines 301--302
+ [][] 
+ []
+
+[8] [9 <./png/force_node.png>]
+Overfull \hbox (26.76247pt too wide) in paragraph at lines 326--326
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--345
+
+ []
+
+[10]
+Overfull \hbox (2.56406pt too wide) in paragraph at lines 357--357
+[] 
+ []
+
+(./model.bbl) [11] (./model.aux) ) 
 Here is how much of TeX's memory you used:
- 3403 strings out of 494977
- 47712 string characters out of 6180183
- 113951 words of memory out of 5000000
- 6570 multiletter control sequences out of 15000+600000
- 8142 words of font info for 32 fonts, out of 8000000 for 9000
+ 3549 strings out of 494977
+ 49914 string characters out of 6180183
+ 118137 words of memory out of 5000000
+ 6699 multiletter control sequences out of 15000+600000
+ 8618 words of font info for 34 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,17n,24p,418b,223s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on model.pdf (7 pages, 184446 bytes).
+ 38i,19n,24p,462b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmtt10.pfb>
+Output written on model.pdf (11 pages, 288683 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 109 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
